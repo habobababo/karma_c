@@ -21,7 +21,7 @@ local function SetKarmaOnSpawn(ply)
 			end
 		end)
 	end
-end)
+end
 hook.Add("PlayerInitialSpawn", "Core_SetKarmaOnSpawn", SetKarmaOnSpawn)
 
 local function RefreshKarma(ply)
